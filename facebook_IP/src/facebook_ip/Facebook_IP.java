@@ -1,7 +1,6 @@
 package facebook_ip;
 
 public class Facebook_IP {
-
     public static void main(String[] args){
 
         Persoana pers = new Persoana();

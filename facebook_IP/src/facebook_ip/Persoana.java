@@ -1,45 +1,37 @@
 package facebook_ip;
 
-public class Persoana
-{
+public class Persoana {
     private String nume = "";
     private String prenume = "";
     private String email = "";
     private String parola = "";
     private String detalii = "";
 
-    public String getNume()
-    {
+    public String getNume() {
         return nume;
     }
 
-    public String getPrenume()
-    {
+    public String getPrenume() {
         return prenume;
     }
 
-    public void setNume(String nume)
-    {
+    public void setNume(String nume) {
         this.nume = nume;
     }
 
-    public void setPrenume(String prenume)
-    {
+    public void setPrenume(String prenume) {
         this.prenume = prenume;
     }
 
-    public String getEmail()
-    {
+    public String getEmail() {
         return email;
     }
 
-    public String getParola()
-    {
+    public String getParola() {
         return parola;
     }
 
-    public void setEmail(String email)
-    {
+    public void setEmail(String email) {
         this.email = email;
     }
     
@@ -49,4 +41,3 @@ public class Persoana
         return output;
     }   
 }
-
