@@ -43,3 +43,9 @@ public class Persoana
         this.email = email;
     }
 }
+
+public String toString()
+{
+    String output = "Nume: " + getNume() + ", Prenume: " + getPrenume();
+    return output;
+}
