@@ -25,7 +25,7 @@ public class Postare {
         numarDistribuiri=0;
     
         continut=""; 
-        comentarii= new Comentariu<>();
+        comentarii= new Vector<>();
     }
     
     
@@ -34,8 +34,9 @@ public class Postare {
         ++numarAprecieri;
     }
     
-    public void adaugaComentariu()
+    public void adaugaComentariu(Comentariu c)
     {
-        
+        ++numarComentarii;
+        comentarii.add(c);
     }
 }
