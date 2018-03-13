@@ -1,5 +1,6 @@
-package Lab4.src;
+package facebook_ip;
 
-public class Utilizator
-    private int numarPrieteni;
+public class Utilizator{
+    int numarPrieteni;
+    
 }

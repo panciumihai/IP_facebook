@@ -1,4 +1,4 @@
-package Lab4.src;
+package facebook_ip;
 
 public class Persoana
 {
@@ -42,10 +42,11 @@ public class Persoana
     {
         this.email = email;
     }
+    
+    public String toString()
+    {
+        String output = "Nume: " + getNume() + ", Prenume: " + getPrenume();
+        return output;
+    }   
 }
 
-public String toString()
-{
-    String output = "Nume: " + getNume() + ", Prenume: " + getPrenume();
-    return output;
-}
